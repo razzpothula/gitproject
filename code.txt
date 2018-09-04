@@ -1,0 +1,5 @@
+location /my-website {
+  content_by_lua_block {
+    os.execute("/bin/myShellScript.sh")
+  } 
+}
